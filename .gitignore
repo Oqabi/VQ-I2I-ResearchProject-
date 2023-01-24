@@ -1,0 +1,35 @@
+.vscode/
+__pycache__/
+*.pyc
+taming_comb/__pycache__/
+.ipynb_checkpoints/
+core*
+
+# reconstructions
+res*/
+
+# model
+b_switch*/
+a_model*/
+afhq*/
+both*/
+cat*/
+dog*/
+ln*/
+setting_c*/
+two_sided_idx/
+sample*/
+test*/
+
+# add taming module by `git add -f [dir_name]`
+taming*/
+settingc_cat2wild_train.py
+
+# add config file by `git add -f [config.yaml]`
+*.yaml
+*.yml
+*pt
+*.sh
+*.ipynb
+*.txt
+avg_indices.py
